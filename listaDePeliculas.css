@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+header{
+    background-color:#5e9db0;
+    background-size:contain;
+    height: 5rem;
+    margin-top: -0.7%;
+    position: sticky;
+    z-index: 1;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 2.5rem;
+    font-family:cursive;
+}
+
+.locationStickyNotes{
+    background-image: url(img/wallpapper.jpg);
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+
+.stickyNote{
+    background-color: rgba(219, 219, 219, 0.42);
+    width: 350px;
+    height: 300px;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 5%;
+    backdrop-filter: blur(5px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.379);
+    box-shadow: 0px 0px 10px 1px rgba(66,66,66,0.63);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(66,66,66,0.63);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(66,66,66,0.63);
+
+}
+
+.imgContainer{
+    width: 250px;
+    height: 200px;
+    margin-left: 3rem;
+}
+img{
+    object-fit:scale-down;
+    width:100%;
+    height:100%;
+}
+
+.descriptiveText{
+    width: auto;
+    height: auto;
+    margin-top: -15px;
+}
+
+p{
+    margin-top: -12px;
+}
